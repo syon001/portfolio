@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    background: #01052e;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3237834a;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #323883;
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.header{
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+}
+
+.intro{
+    padding-left: 180px;
+}
+
+.intro h2{
+    font-size: 58px;
+}
+
+.intro span{
+    color: #323883;
+    transition: 0.3s ease;
+}
+.intro span:hover{
+    text-shadow: 6px 6px 0px #000;
+}
+
+.intro p{
+    font-size: 22px;
+}
+
+.social{
+    padding-left: 180px;
+    font-size: 24px;
+}
+
+.social span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.resume{
+    background: #323883;
+    border-radius: 20px;
+    color: #fff;
+    padding: 2px 25px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.resume:hover{
+    box-shadow: 6px 6px 0px #000;
+}
+
+.resume i{
+    font-size: 18px;
+}
+
+.main{
+    padding: 80px;
+    height: calc(100vh - 120px);
+    overflow-y: scroll;
+}
+
+.about{
+    margin-bottom: 80px;
+}
+
+.about h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.about p{
+    font-size: 16px;
+    color: #ccc;
+}
+
+
+.ptitle{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section{
+    padding: 20px 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.section:hover{
+    background: #5c5f7d1b;
+    box-shadow: 6px 6px 0px #000;
+}
+
+.section a{
+    text-decoration: none;
+    color: #323883;
+}
+
+.section h2 i{
+    font-size: 14px;
+}
+
+.section p{
+    margin-top: 5px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tags span{
+    background: #323883;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.gitcode a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
