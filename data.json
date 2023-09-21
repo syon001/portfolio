@@ -1,0 +1,23 @@
+[
+    {
+        "title": "GitHub Finder",
+        "description": "GitHub Finder is a user-friendly website for discovering GitHub profiles. Just enter a GitHub username, and you'll instantly access key information: total repositories, followers, following, location, and their latest 5 repositories. It doesn't stop there – dive deeper into each repository with stats like stars, watchers, and forks. Plus, a profile button takes you directly to the user's GitHub profile. It's a simple and efficient way to explore GitHub and connect with users.",
+        "tags": ["HTML", "CSS", "JS"],
+        "livelink": "https://syon001.github.io/github-finder/",
+        "githubLink": "https://github.com/syon001/github-finder"
+    },
+    {
+        "title": "Customizable Password Generator",
+        "description": "The Customizable Password Generator empowers users to create secure, tailored passwords by specifying length and character types, including capital letters, small letters, symbols, and digits. It promotes online security, providing a user-friendly tool for generating strong passwords for various accounts.",
+        "tags": ["HTML", "CSS", "JS"],
+        "livelink": "https://syon001.github.io/generate-password/",
+        "githubLink": "https://github.com/syon001/generate-password"
+    },
+    {
+        "title": "To Do List",
+        "description": "This app makes managing tasks a breeze. Create lists, add as many tasks as you want, and when you're done with one, simply check it off to make it disappear. No more clutter, just pure organization and productivity. Give it a try today and see how smoothly it helps you handle your daily tasks!",
+        "tags": ["HTML", "CSS", "JS"],
+        "livelink": "https://syon001.github.io/To-do-list/",
+        "githubLink": "https://github.com/syon001/To-do-list"
+    }
+]
