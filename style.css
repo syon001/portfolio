@@ -155,10 +155,46 @@ body{
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 .gitcode a{
     text-decoration: none;
     color: #fff;
     font-size: 22px;
+}
+
+
+
+
+/* responsive */
+
+@media (max-width: 962px) {
+    body{
+        background: #01052e;
+        color: #fff;
+        height: 100%;
+        overflow: scroll;
+    }
+
+    .main-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+    }
+
+    .main {
+        padding: 80px;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    .header{
+        height: 100%;
+    }
+
+    .intro {
+        padding-left: 80px;
+        margin-bottom: 80px;
+    }
 }
